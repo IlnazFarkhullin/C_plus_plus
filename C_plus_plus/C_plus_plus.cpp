@@ -24,7 +24,7 @@ using namespace std; //используем пространство имён с
       //  cout << (a + b - 1) / b;
 
                                                                //УСЛОВНЫЙ ОПЕРАТОРЫ
-     int a,b;
+    /* int a,b;
      cin >> a >>b;
      if (a==b)
      {
@@ -33,6 +33,57 @@ using namespace std; //используем пространство имён с
      else
      {
          cout << "No";
+     }*/
+
+
+                                                             // ЦИКЛ while
+     //Вывод минимальног числа
+   /*  int min, now;
+     cin >> now;
+     min = now;
+     while (now !=0)
+     {
+         if (now < min)
+         {
+             min = now;
+         }
+         cin >> now;
+     }
+     cout << min;*/
+
+
+
+     /*int sum=0, now;
+     cin >> now;
+     while (now !=0)
+     {
+         sum = sum + now;
+         cin >> now;
+
+     }
+     cout << sum;*/
+
+     int p1, p2;
+     cin >> p1 >> p2;
+     int s1 = 0, s2 = 0;
+     while (p1 !=0)
+     {
+         s1 = s1 + p1 % 10;
+         p1 = p1 / 10;
+     }
+
+     while (p2 !=0)
+     {
+         s2 = s2 + p2 % 10;
+         p2 = p1 / 10;
+     }
+     if (s1 ==s1)
+     {
+         cout << ":)";
+     }
+     else
+     {
+         cout << ":(";
      }
 }
 
